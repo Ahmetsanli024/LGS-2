@@ -1,0 +1,7 @@
+{
+  "name": "Sınavza Rehberlik Analiz Sistemi",
+  "description": "LGS deneme sonuçlarını analiz eden, öğrenci gelişim grafikleri oluşturan ve velilere özel WhatsApp bilgilendirme mesajları hazırlayan profesyonel rehberlik aracı.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

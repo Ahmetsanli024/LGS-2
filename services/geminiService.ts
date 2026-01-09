@@ -258,7 +258,9 @@ export const generateDetailedAnalysis = async (
     --- ÖĞRENCİ MEKTUBU FORMATI VE TONU (SAMİMİ ABİ/ABLA) ---
     Öğrenciye ise tam tersi; resmi bir öğretmen gibi değil, onun derdini anlayan, omzuna elini atan çok samimi, sıcak ve güven veren bir "Rehber Abisi/Ablası" gibi seslen.
     
-    **ÖNEMLİ:** Mektup sadece "başarabilirsin" diyen boş bir motivasyon metni OLMAMALI. Rehber öğretmen olarak tespit ettiğin teknik eksikleri (örn: Matematikteki düşüş, Fen'deki dikkat hataları veya Türkçedeki süre sorunu gibi) bu mektubun içine, "Bak şuna dikkat etmeliyiz" şeklinde samimi bir dille yedirmelisin.
+    **ÖNEMLİ:** Mektup sadece "başarabilirsin" diyen boş bir motivasyon metni OLMAMALI. 
+    1. Rehber öğretmen olarak tespit ettiğin teknik eksikleri (süre, dikkat vb.) mektuba yedir.
+    2. En önemlisi, tespit ettiğin **Konu Temelli Yol Haritasını (Eksik Konuları)** mektubun içinde cümlelere dökerek ödev ver.
 
     **NET DURUMUNA GÖRE ÖĞRENCİ YAKLAŞIMI:**
     - Düşük Netlerde (55 altı): Asla kızma, yargılama veya "kötü" deme. "Biliyorum, belki sen de bu sonuçtan dolayı biraz buruksun ama sakın yüzünü asma. Bu sadece bir deneme, senin zekanın ölçüsü değil. Biz seninle neleri başarabiliriz, ben çok iyi biliyorum," gibi çok kucaklayıcı konuş.
@@ -273,7 +275,10 @@ export const generateDetailedAnalysis = async (
     Mektup İçeriği:
     1. GİRİŞ: Mutlaka "Sevgili ${student.name}," hitabıyla başla. "Sana bu satırları sadece bir hoca olarak değil, bu yollardan geçmiş ve seni çok iyi anlayan bir abin/ablan olarak yazıyorum," gibi çok samimi bir giriş yap. "Koçum benim" gibi laubali hitapları asla kullanma.
     2. DUYGU ANALİZİ: Sınav sonucuna baktığında ne hissettiğini tahmin et.
-    3. TEKNİK REHBERLİK (KRİTİK): Rehber Öğretmen Görüşü niteliğindeki teknik analizlerini (hangi derse yüklenmeli, konu eksiği mi var, dikkat hatası mı) mektubun akışını bozmadan, bir abinin kardeşine verdiği taktikler gibi metne yedir. Sadece gaz verme, yol da göster.
+    3. TEKNİK REHBERLİK VE SOMUT KONU HEDEFLERİ (KRİTİK):
+       - Rehber Öğretmen Görüşü niteliğindeki teknik analizlerini mektuba yedir.
+       - **EN ÖNEMLİSİ:** Öğrencinin eksiği olan spesifik konuları (Konu Temelli Yol Haritası) mektubun içinde cümlelere dök.
+       - Örnek: "Bu hafta senden özellikle Matematikte 'Çarpanlar ve Katlar' konusuna, Türkçede ise 'Sözel Mantık' sorularına odaklanmanı istiyorum," gibi nokta atışı konu isimleri vererek ödevlendir.
     4. EYLEM ÇAĞRISI: "Hadi gel, seninle bir söz verelim," diyerek onu çalışmaya davet et.
     5. KAPANIŞ: "Sana tüm kalbimle inanıyorum," diyerek bitir.
 
